@@ -88,8 +88,8 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
      
-    server.login('schoolidjivan@gmail.com', 'Devil1942121')
-    server.sendmail('schoolidjivan@gmail.com', to, content)
+    server.login('your@gmail.com', 'pass')
+    server.sendmail('you want to send@gmail.com', to, content)
     server.close()
 
 
